@@ -1,0 +1,230 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: white;
+    overflow-x: hidden;
+}
+
+
+.contact {
+    width: 100vw;
+    max-height: max-content;
+    border-radius: 6px;
+    background-color: rgba(8, 8, 8, 0.075);
+    box-shadow: rgba(54, 53, 53, 0.2) 0px 2px 8px 0px;
+}
+
+.contact .abhi {
+    width: 6%;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.contact img {
+    width: 32px;
+    border-radius: 32px;
+    border: 1px solid #90aee2;
+    cursor: pointer;
+    margin: 2px 6px;
+
+}
+
+.contact h2 {
+    color: black;
+    font-weight: 800;
+    font-size: 1.6rem;
+}
+
+.someimage {
+    width: 100vw;
+    max-height: max-content;
+    border-radius: 6px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+
+.someimage img {
+    height: 460px;
+}
+
+.detail {
+    width: 100vw;
+    max-height: max-content;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.detail h2 {
+    color: black;
+    font-weight: 800;
+}
+
+.detail h4 {
+    color: black;
+    font-weight: 700;
+}
+
+.detail h6 {
+    color: black;
+    font-weight: 760;
+}
+
+nav {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+    text-decoration-thickness: 2px;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+/* here start all about project method */
+.project {
+    width: 100vw;
+    max-height: max-content;
+    border-radius: 2px;
+    background-image: url('background_16_WabjYvZ.wide.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.item1 {
+    margin: 66px 0;
+}
+
+.item1 h1 {
+    color: #f6f5f3;
+    font-weight: 900;
+}
+
+.item1 .hints {
+    color: #00FFFF;
+    font-weight: 800;
+}
+
+.item1 .projectno1 {
+    color: #A2FF86;
+    font-weight: 800;
+}
+
+.projectno2 {
+    color: #ccff00;
+    font-weight: 800;
+}
+
+.projectno3 {
+    color: #00ff00;
+    font-weight: 800;
+}
+
+.btnproject a {
+    border: none;
+    text-decoration: none;
+}
+
+.btnproject a button {
+    background-color: black;
+    color: #f6f5f3;
+    ;
+    padding: 6px 12px;
+    font-size: 26px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid lightblue;
+    border-radius: 26px;
+}
+
+.btnproject a button:hover {
+    background-color: #f6f5f3;
+    color: black;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.projectimges {
+    width: 100vw;
+    max-height: max-content;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin: 1px 0;
+}
+
+.projectimges img {
+    height: 400px;
+}
+
+nav ul li{
+    margin: 20px 10px;
+        list-style-type: none;
+    
+    }
+    nav img{
+        width: 20%;
+    }
+    
+    nav ul{
+    display: flex;
+    
+    }
+    
+    nav{
+        
+        color: white;
+        background-color: black;
+        
+    }
+    .left{
+       /* margin-left: -198px;*/
+        font-weight: 700;
+        position: absolute;
+        left: 19%;
+    }
+    
+    nav img{
+        margin: -16px 0;
+    }
+    .left:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        text-decoration-color: blueviolet;
+        text-decoration-thickness: 2px;
+        color: blueviolet;
+        font-size: 18px;
+        background-color: rgba(0, 0, 0, 0.591);
+    }
+    .left1:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        text-decoration-color: blueviolet;
+        text-decoration-thickness: 2px;
+        color: blueviolet;
+        font-size: 18px;
+        background-color: rgba(0, 0, 0, 0.591);
+    }
+    nav ul a{
+        color: white;
+        text-decoration: none;
+    }
+    ::-webkit-scrollbar{
+        width: 1px;
+        height: 1px;
+        background-color:white;
+        border-radius: 26px;
+    }
+    nav img{
+    margin-left: -16%;
+    width: 22%;
+    }

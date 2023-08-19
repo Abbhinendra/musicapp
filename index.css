@@ -1,0 +1,572 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav ul li{
+margin: 20px 10px;
+    list-style-type: none;
+
+}
+nav img{
+    width: 20%;
+}
+
+nav ul{
+display: flex;
+
+}
+
+nav{
+    
+    color: white;
+    background-color: black;
+    
+}
+.left{
+    margin-left: -198px;
+    font-weight: 700;
+}
+.left1{
+    margin-left: -122px;
+    font-weight: 700;
+}
+nav img{
+    margin: -16px 0;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: wheat;
+    
+   
+}
+::-webkit-scrollbar{
+    width: 1px;
+    height: 1px;
+    background-color:white;
+    border-radius: 26px;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+}
+
+.bottom{
+    position: sticky;
+    height: 160px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+}
+.container{
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 36px ;
+    background-image: url('2.png');
+  
+}
+#myprogresBar{
+width: 76%;
+}
+.icons{
+    margin: 16px 0;
+}
+.icons i{
+    cursor: pointer;
+}
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 90%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 26px;
+}
+.songitem img{
+    width: 46px;
+    margin:0  20px;
+    border-radius:50%;
+}
+.timestamp{
+    margin: 0 20px;
+}
+
+#myprogresBar{
+    accent-color: blue;
+    cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    left: 12vw;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+.far{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 825px) {
+    
+    .bottom{
+        height: 200px;
+        position: relative;
+    }
+ .songinfo{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    width: 68vw;
+    margin: auto;
+    position: absolute;
+    top: 22%;
+ }
+ .icons{
+    position: absolute;
+    cursor: pointer;
+    top: 48%;
+ }
+ #myprogresBar{
+    position: absolute;
+    top:29px;
+ }
+    
+}
+
+@media screen and (max-width: 750px) {
+
+  
+    .container{
+        width: 90%;
+    }
+    .songitem{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    
+    .songitem{
+        font-size: 8px;
+    }
+    .songname{
+        font-size: 8px;
+
+    }
+    .timestamp{
+font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+   
+    .songitem{
+        width: 70vw;
+        margin: auto;
+        margin: 16px ;
+        text-align: center;
+    }
+    .songname{
+        font-size: 9px;
+
+    }
+    .timestamp{
+font-size: 9px;
+    }
+}
+@media screen and (max-width: 366px) {
+
+    .container{
+        width: 98%;
+        
+     
+    }
+    .songitem{
+        width: 108%;
+        margin-left: -4%;
+        
+    }
+    .songname{
+        font-size: 9px;
+
+    }
+    .timestamp{
+font-size: 9px;
+    }
+}
+@media screen and (max-width: 366px) {
+    
+   
+    .container{
+        width: 98%;
+        
+     
+    }
+    .songitem{
+        width: 110%;
+        margin-left: -4%;
+        
+    }
+    .songname{
+        font-size: 6px;
+
+    }
+    .timestamp{
+font-size: 9px;
+    }
+
+}
+
+@media screen and (max-width: 286px) {
+    
+   
+    .container{
+        width: 98%;
+        
+     
+    }
+    .songitem{
+        width: 120%;
+        margin-left: -7%;
+        
+    }
+    .songname{
+        font-size: 6px;
+
+    }
+    .timestamp{
+font-size: 9px;
+    }
+}
+@media screen and (max-width: 266px) {
+    
+    .container{
+        width: 110%;
+        
+     
+    }
+    .songitem{
+        width: 118%;
+        margin-left: -12%;
+        
+    }
+    .songname{
+        font-size: 4px;
+
+    }
+    .timestamp{
+font-size: 9px;
+    }
+    nav{
+        width: 110%;
+    }
+    .bottom{
+    width: 110%;
+    }
+}
+.left1{
+    cursor: pointer;
+}
+.left{
+    cursor: pointer;
+   
+}
+
+.left:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+    text-decoration-thickness: 2px;
+    color: blueviolet;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.591);
+}
+.left1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+    text-decoration-thickness: 2px;
+    color: blueviolet;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.591);
+}
+nav ul a{
+    color: white;
+    text-decoration: none;
+}
+
+.d1{
+    max-width: max-content;
+    max-height: max-content;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    border: 2px solid black;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    top: 36%;
+    left: 40%;
+    display: none;
+}
+
+
+.d2{
+    max-width: max-content;
+    max-height: max-content;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    border: 2px solid black;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    top: 38%;
+    left: 40%;
+    display: none;
+}
+
+.d3{
+    max-width: max-content;
+    max-height: max-content;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    border: 2px solid black;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    top: 40%;
+    left: 40%;
+    display: none;
+}
+
+.d4{
+    max-width: max-content;
+    max-height: max-content;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    border: 2px solid black;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    top: 42%;
+    left: 40%;
+    display: none;
+}
+
+.d5{
+    max-width: max-content;
+    max-height: max-content;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    border: 2px solid black;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    top: 44%;
+    left: 40%;
+    display: none;
+}
+
+.d6{
+    max-width: max-content;
+    max-height: max-content;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    border: 2px solid black;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    top: 46%;
+    left: 40%;
+    display: none;
+}
+
+.d7{
+    max-width: max-content;
+    max-height: max-content;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    border: 2px solid black;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    top: 48%;
+    left: 40%;
+    display: none;
+}
+
+.d8{
+    max-width: max-content;
+    max-height: max-content;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    border: 2px solid black;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 40%;
+    display: none;
+}
+
+.d9{
+    max-width: max-content;
+    max-height: max-content;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    border: 2px solid black;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    top: 52%;
+    left: 40%;
+    display: none;
+}
+
+.d10{
+    max-width: max-content;
+    max-height: max-content;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    border: 2px solid black;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    top: 54%;
+    left: 40%;
+    display: none;
+}
+
+#download1{
+    cursor: pointer;
+}
+
+#download1{
+    cursor: pointer;
+}
+#download2{
+    cursor: pointer;
+}
+#download3{
+    cursor: pointer;
+}
+#download4{
+    cursor: pointer;
+}
+#download5{
+    cursor: pointer;
+}
+#download6{
+    cursor: pointer;
+}
+#download7{
+    cursor: pointer;
+}
+#download8{
+    cursor: pointer;
+}
+#download9{
+    cursor: pointer;
+}
+#download10{
+    cursor: pointer;
+}
+
+
+
+
+.d1 a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+
+.d1 a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.d2 a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.d3 a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.d4 a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.d5 a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.d6 a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.d7 a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.d8 a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.d9 a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.d10 a{
+    text-decoration: none;
+    color: blueviolet;
+}
